@@ -5,6 +5,7 @@ type NotificationProps = {
   message: string;
   red?: boolean;
 };
+
 const NotificationTile: React.FC<NotificationProps> = ({
   time,
   message,
