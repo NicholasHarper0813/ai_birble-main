@@ -4,6 +4,7 @@ type ActivityActionCardProps = {
   subHeading: string;
   buttonText: string;
 };
+
 const ActivityActionCard: React.FC<ActivityActionCardProps> = ({
   title,
   heading,
