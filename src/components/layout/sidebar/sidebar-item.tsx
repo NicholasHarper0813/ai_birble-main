@@ -7,6 +7,7 @@ type SidebarItemProps = {
   label: string;
   subItems?: SidebarSubItemProps[];
 };
+
 const SidebarItem: React.FC<SidebarItemProps> = ({ label, subItems }) => {
   return (
     <li className="">
