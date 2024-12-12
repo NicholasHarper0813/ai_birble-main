@@ -1,9 +1,8 @@
-import WelcomeSection from "./welcome";
-import CategoriesSection from "./categories";
-import NotificationsPanel from "./notifications";
-import Image from "next/image";
-
 import bgGradient from "@/assets/svg/main-bg-gradient.svg";
+import NotificationsPanel from "./notifications";
+import CategoriesSection from "./categories";
+import WelcomeSection from "./welcome";
+import Image from "next/image";
 
 export default function Page() {
   return (
