@@ -9,16 +9,21 @@ const config = {
     "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
-  theme: {
-    container: {
+  theme: 
+  {
+    container: 
+    {
       center: true,
       padding: "2rem",
-      screens: {
+      screens: 
+      {
         "2xl": "1400px",
       },
     },
-    extend: {
-      colors: {
+    extend: 
+    {
+      colors:
+      {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -26,31 +31,38 @@ const config = {
         foreground: "hsl(var(--foreground))",
         "foreground-secondary": "hsl(var(--foreground-secondary))",
         sidebar: "hsl(var(--sidebar))",
-        primary: {
+        primary: 
+        {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        secondary: {
+        secondary:
+        {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
-        destructive: {
+        destructive: 
+        {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
-        muted: {
+        muted: 
+        {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
         },
-        accent: {
+        accent: 
+        {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        popover: {
+        popover: 
+        {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
-        card: {
+        card: 
+        {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
           2: "hsl(var(--card-2))",
@@ -58,24 +70,29 @@ const config = {
           4: "hsl(var(--card-4))",
         },
       },
-      borderRadius: {
+      borderRadius: 
+      {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
         "4xl": "35px",
         "5xl": "50px",
       },
-      keyframes: {
-        "accordion-down": {
+      keyframes: 
+      {
+        "accordion-down":
+        {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
-        "accordion-up": {
+        "accordion-up":
+        {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
       },
-      animation: {
+      animation: 
+      {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
